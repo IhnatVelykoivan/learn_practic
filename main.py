@@ -68,3 +68,18 @@
 #     hobby.append(input(text))
 #
 #     i += 1
+
+
+# text = 'f,b,c,a'
+# hobbies = text.split(',')
+#
+# for i in range(0, len(hobbies)):
+#     hobbies[i] = hobbies[i].capitalize()
+# result = ','.join(hobbies)
+# print(hobbies)
+
+
+# person = {'name': 'Alex', 'age': 15, 'sex': 'Man'}
+#
+# for key, values in person.items():
+#     print(key, values, sep=" - ")

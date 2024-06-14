@@ -133,3 +133,33 @@
 
 # lis = [5, 3, True, "Some", [5, 4]] #список з єлементами(значення)
 # print(lis[:-4:-1]) # звернення до певного єлементу *індекс:номер:крок вибору*
+
+# Кортежи
+# data = (5, 3, 5.4, "Text", True, [5, 3], (5, 6))
+# # print(data[2:-2:2])
+# # # data[0] = 45
+# # print(data.count(3))
+#
+# info = (4,)
+# # print(info)
+#
+# for el in data:
+#     print(el)
+
+# nums = [5, 6]
+# data = tuple(nums)
+# print(data)
+
+# Словники
+# person = {'name': 'Alex', 'age': 15, 5: 12, True: 'False', (3, 5): 45}
+# person[5] = 'Five'
+# print(person[5])
+
+# person1 = dict(name='Alex', age=15)
+# print(person1['name'])
+
+# for key, values in person.items():
+#     print(key, values, sep=" - ")
+#
+# for el in person.values():
+#     print(el)
