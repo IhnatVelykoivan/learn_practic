@@ -6,7 +6,7 @@
 # print("\tHello,world!")
 # print('Egni book\'s')
 # print("Johny\'s \\Cage")
-# Int Function
+# # Int Function
 # print(-10 + -2 % 2.5)
 # print(6 ** 4)
 # print(min(6, 2, 0, 4))
@@ -151,7 +151,13 @@
 # print(data)
 
 # Словники
-# person = {'name': 'Alex', 'age': 15, 5: 12, True: 'False', (3, 5): 45}
+# person = {'name': 'Alex', 'age': 15, 5: 12, True: 'False', (3, 5): 45} # створення змінної з 'ключами'
+# person.clear() # функція яка повністю вичищає словник
+# print(person)
+# person.popitem() # видалиння останього елементу в словнику
+# person.pop(5)
+# person['bio'] = 'Text'
+# print(person.get('name')) # функція зі зверненням до 'ключа'
 # person[5] = 'Five'
 # print(person[5])
 
@@ -163,3 +169,20 @@
 #
 # for el in person.values():
 #     print(el)
+
+# Множини
+# data = {'Alex', 'Bob', 'Andrew'}
+# data.pop()
+# data.add(10)
+# data.update([7, 8, 9.99])
+# data.remove(8)
+# print(data)
+#
+# nums = [1, 7.45, 3, 3, 1, 6, -1]
+# res = set(nums)
+# word = 'hello'
+# print(set(word))
+
+# /frozenset
+# data = frozenset(['Alex', 'Bob', 'Alex', 'Bob', 6, 6, 'Andrew'])
+# print(data)
