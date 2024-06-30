@@ -186,3 +186,57 @@
 # /frozenset
 # data = frozenset(['Alex', 'Bob', 'Alex', 'Bob', 6, 6, 'Andrew'])
 # print(data)
+
+# Робота з функціями
+
+# def info(word):
+#     print(word, end="")
+#     print("!")
+#
+# def summa(a, b):
+#     res = a + b
+#     info(res)
+#     return res
+#
+# res1 = summa(5, 6)
+# res2 = summa(5.6, 4.4)
+# res3 = summa("hi", " world")
+# print(res1)
+
+# Мінімальний єлемент
+
+# def minimal(l):
+#     mini = l[0]
+#     for i in l:
+#         if i < mini:
+#             mini = i
+#
+#     return mini
+#
+#
+# nums1 = [5, 3 , 7, -10, 3, -6, 0, -3]
+# res1 = minimal(nums1)
+#
+# nums2 = [5, 3 , 7, 2, 3, -3]
+# res2 = minimal(nums2)
+#
+# if res1 < res2:
+#     print(res1)
+# else:
+#     print(res2)
+
+# lambda функція
+
+# func = lambda x, y: x * y
+# print(func(5, 6))
+
+# Робота з файлом
+# data = input("Hobbie: ")
+# file = open('data/myfile.txt', 'a')
+# file.write(data + '\n')
+# file.close()
+
+# file = open('data/myfile.txt', 'r')
+# for line in file:
+#     print(line, end="")
+# file.close()

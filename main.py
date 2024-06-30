@@ -86,7 +86,6 @@
 
 
 
-
 # people = {
 #     'user_1': {
 #         'name': 'John',
@@ -101,61 +100,27 @@
 #         'grades': {'math': 4, 'physics': 4},
 #     },
 #     'user_3': {
-#         'name': 'Stive',
+#         'name': 'Steve',  # виправлено ім'я
 #         'age': 25,
 #         'address': ('Seattle', 'Some street', 135),
 #         'grades': {'math': 3, 'physics': 5},
 #     }
 # }
+#
 # work = True
 # while work:
 #     user_input = input("Enter number 1-3: ")
 #     if user_input == '1':
 #         print(people['user_1'])
-#         continue
-#     if user_input == '2':
+#     elif user_input == '2':
 #         print(people['user_2'])
-#         continue
-#     if user_input == '3':
+#     elif user_input == '3':
 #         print(people['user_3'])
-#         continue
-# else:
-#     user_input <= '4':
-#     print('Not found!')
-#     work = False
-#     break
+#     else:
+#         print('Not found!')
+#         work = False
 
-
-people = { # constans
-    'user_1': {
-        'name': 'John',
-        'age': 27,
-        'address': ('Seattle', 'Some street', 345),
-        'grades': {'math': 5, 'physics': 2}
-    },
-    'user_2': {
-       'name': 'Kate',
-        'age': 23,
-        'address': ('Seattle', 'Some street', 244),
-        'grades': {'math': 4, 'physics': 4},
-    },
-    'user_3': {
-        'name': 'Steve',  # виправлено ім'я
-        'age': 25,
-        'address': ('Seattle', 'Some street', 135),
-        'grades': {'math': 3, 'physics': 5},
-    }
-}
-
-work = True
-while work:
-    user_input = input("Enter number 1-3: ")
-    if user_input == '1':
-        print(people['user_1'])
-    elif user_input == '2':
-        print(people['user_2'])
-    elif user_input == '3':
-        print(people['user_3'])
-    else:
-        print('Not found!')
-        work = False
+# file = open('data/myfile.txt', 'w+')
+# file.write('Hello world')
+# file.write('!')
+# file.close()
