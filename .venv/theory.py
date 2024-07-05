@@ -270,3 +270,11 @@
 #     print("You lucky!")
 # finally:
 #     print("All done!")
+
+# Менеджер "With...as"
+# try:
+#     with open('text.txt', 'r', encoding='utf-8') as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("File not found")
+
