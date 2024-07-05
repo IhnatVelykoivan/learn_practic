@@ -231,12 +231,42 @@
 # print(func(5, 6))
 
 # Робота з файлом
-# data = input("Hobbie: ")
+# file = open('data/myfile.txt', 'w+')
+# file.write('Hello world')
+# file.write('!')
+# file.close()
+
+# data = input("Hobby: ")
 # file = open('data/myfile.txt', 'a')
 # file.write(data + '\n')
 # file.close()
+
+# print(file.read(10))
 
 # file = open('data/myfile.txt', 'r')
 # for line in file:
 #     print(line, end="")
 # file.close()
+
+# Обробка винятків
+# num = None
+#
+# while num is None:
+#     try:
+#         num = int(input("Enter num: "))
+#         num += 5
+#         print(num)
+#     except ValueError:
+#         print("Don't correct")
+# try:
+#     a = 10
+#     b = int(input("Enter num: "))
+#     print(a / b)
+# except ValueError:
+#     print("Don't correct")
+# except ZeroDivisionError:
+#     print("Division for zero don't work")
+# else:
+#     print("You lucky!")
+# finally:
+#     print("All done!")

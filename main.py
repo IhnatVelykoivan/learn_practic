@@ -119,8 +119,3 @@
 #     else:
 #         print('Not found!')
 #         work = False
-
-# file = open('data/myfile.txt', 'w+')
-# file.write('Hello world')
-# file.write('!')
-# file.close()
